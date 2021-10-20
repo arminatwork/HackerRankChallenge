@@ -41,6 +41,12 @@
 //1 ≤ a[i] ≤ 100
 //1 ≤ b[i] ≤ 100
 
+//Explanation 1
+
+//Comparing the  elements, so Bob receives a point.
+//Comparing the  and  elements, and  so Alice receives two points.
+//The return array is .
+
 List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
 
 List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
